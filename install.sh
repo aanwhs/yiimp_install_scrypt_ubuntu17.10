@@ -6,7 +6,7 @@
 # Web:     
 #
 # Program:
-#   Install yiimp on Ubuntu 17.10 running Nginx, MariaDB, and php7.x
+#   Install yiimp on Ubuntu 17.10 running Nginx, MariaDB, and php7.1
 # 
 # 
 ################################################################################
