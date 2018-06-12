@@ -63,9 +63,9 @@ displayErr() {
     sudo aptitude -y install nginx
     sudo rm /etc/nginx/sites-enabled/default
     sudo systemctl start nginx.service
-	sudo systemctl enable nginx.service
+    sudo systemctl enable nginx.service
     sudo systemctl start cron.service
-	sudo systemctl enable cron.service
+    sudo systemctl enable cron.service
 	
 
     #Making Nginx a bit hard
@@ -90,7 +90,7 @@ default         0;
     export DEBIAN_FRONTEND="noninteractive"
     sudo aptitude -y install mariadb-server
     sudo systemctl start mariadb.service
-	sudo systemctl enable mariadb.service
+    sudo systemctl enable mariadb.service
 	
     output " "
     output "Installing php7.x and other needed files"
