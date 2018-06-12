@@ -89,7 +89,7 @@ default         0;
     rootpasswd=$(openssl rand -base64 12)
     export DEBIAN_FRONTEND="noninteractive"
     sudo aptitude -y install mariadb-server
-    systemctl start mariadb.service
+    sudo systemctl start mariadb.service
 	sudo systemctl enable mariadb.service
 	
     output " "
