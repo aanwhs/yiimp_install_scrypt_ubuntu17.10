@@ -1,4 +1,4 @@
-# Yiimp_install_scrypt_ubuntu17.10 (update June 12, 2018) // TEST - DO NOT USE
+# Yiimp_install_scrypt_ubuntu17.10 (update June 14, 2018)
 
 
 Discord : https://discord.gg/zcCXjkQ
