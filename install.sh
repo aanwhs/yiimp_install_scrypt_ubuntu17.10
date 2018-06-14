@@ -452,7 +452,7 @@ sudo chmod +x /var/stratum/config/run.sh
             index index.php;
         
             access_log /var/log/nginx/'"${server_name}"'.app-access.log;
-            error_log  /var/log/nginx/'"${server_name}"'.app-error.log error;
+            error_log  /var/log/nginx/'"${server_name}"'.app-error.log;
         
             # allow larger file uploads and longer script runtimes
  	client_body_buffer_size  50k;
@@ -656,7 +656,7 @@ sudo chmod +x /var/stratum/config/run.sh
             index index.php;
         
             access_log /var/log/nginx/'"${server_name}"'.app-access.log;
-            error_log  /var/log/nginx/'"${server_name}"'.app-error.log error;
+            error_log  /var/log/nginx/'"${server_name}"'.app-error.log;
         
             # allow larger file uploads and longer script runtimes
  	client_body_buffer_size  50k;
