@@ -130,7 +130,11 @@ default         0;
     sudo add-apt-repository -y ppa:bitcoin/bitcoin
     sudo apt-get -y update
     sudo apt-get install -y libdb4.8-dev libdb4.8++-dev libdb5.3 libdb5.3++
-       
+	
+	#Conf older Version of GCC
+    sudo apt-get install gcc-5 g++-5
+	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /usr/bin/g++ g++ /usr/bin/g++-5
+	sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 40 --slave /usr/bin/g++ g++ /usr/bin/g++-7
     
     #Generating Random Passwords
     password=`cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`
