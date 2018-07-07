@@ -3,7 +3,7 @@
 
 Discord : https://discord.gg/zcCXjkQ
 
-TUTO Youtube : https://www.youtube.com/watch?v=vdBCw6_cyig
+TUTO Youtube (17.10) : https://www.youtube.com/watch?v=MwSUtr2aWG8
 
 Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
 
