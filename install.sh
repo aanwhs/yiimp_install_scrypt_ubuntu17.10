@@ -2,8 +2,9 @@
 ################################################################################
 # Original Author:   crombiecrunch
 # Fork Author: manfromafar
-# Current Author: Xavatar
-# Web:     
+# Previous Author: Xavatar
+# Current Author: aanwhs
+# Web: https://aanwhs.github.io
 #
 # Program:
 #   Install yiimp on Ubuntu 17.10 running Nginx, MariaDB, and php7.1.x
@@ -261,7 +262,7 @@ default         0;
     #Generating Random Password for stratum
     blckntifypass=`cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`
     cd ~
-    git clone https://github.com/tpruvot/yiimp.git
+    git clone https://github.com/aanwhs/yiimp.git
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     sudo make
