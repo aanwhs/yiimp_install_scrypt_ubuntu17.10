@@ -68,8 +68,6 @@ While I did add some server security to the script, it is every server owners re
 
 There will be several wallets already in yiimp. These have nothing to do with the installation script and are from the database import from the yiimp github. 
 
-If you need further assistance we have a small but growing discord channel at https://discord.gg/zcCXjkQ
-
 If this helped you or you feel giving please donate : 
 - PayPal: [paypal.me/aanwhs](https://www.paypal.me/aanwhs)
 - Bitcoin: [1AanWHSKhWLcKDVp64jWuRmkKEtrecXaFa](https://www.blockchain.com/btc/address/1AanWHSKhWLcKDVp64jWuRmkKEtrecXaFa)
